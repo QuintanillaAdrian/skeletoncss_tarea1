@@ -1,0 +1,201 @@
+.nav-bar {
+    padding: 15px 0;
+}
+
+.nav-links,
+.nav-social {
+    list-style: none;
+    display: flex;
+}
+
+.nav-social {
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.nav-links {
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.nav-links li,
+.nav-social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: helvetica, sans-serif;
+}
+
+.nav-social a {
+    text-decoration: none;
+    color: #333;
+    font-weight: helvetica, sans-serif;
+}
+
+.logo {
+    height: 20px;
+}
+
+
+/* Hero Section */
+
+.hero-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: Helvetica, sans-serif;
+}
+
+.hero-subtitle {
+    text-align: center;
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+/* Contenedor de la imagen */
+.hero-image-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagen de la laptop */
+.hero-image.laptop {
+    width: 100%;
+    display: block;
+}
+
+/* Imagen del desktop encima de la laptop */
+.hero-image.desktop {
+    position: absolute;
+    width: 75%;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Sección de Pago */
+.payment-section {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    align-items: baseline;
+}
+
+.button-group {
+    border-color: gray;
+    margin: 0px;
+    align-items: baseline;
+}
+
+.button {
+    background-color: #eee;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #ddd;
+}
+
+.button-primary {
+    background-color: #0078D7;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #005BB5;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.elementary-icon {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+/* Card */
+.blog-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog-title {
+    color: #333333;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.blog-desc {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.author-info {
+    display: flex;
+}
+
+.author-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-details {
+    font-size: 12px;
+    color: #777;
+}
+
+.author-items {
+    display: flex;
+    justify-items: baseline;
+}
+
+.app-display .buttons {
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: justify;
+}
